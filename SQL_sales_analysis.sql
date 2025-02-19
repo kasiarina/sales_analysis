@@ -1,5 +1,5 @@
 
--- Top 10 highest revenue generating products
+--Top 10 highest revenue generating products
 SELECT TOP 10 product_id, SUM(sale_price) AS sales
 FROM df_orders
 GROUP BY product_id
